@@ -222,6 +222,7 @@ def Edit():
     Clock_in = input("Enter Clock In time:")
     Clock_out = input("Enter Clock Out time:")
 
+
     TimeCard_file.write(employee + " ")
     TimeCard_file.write(Date + " ")
     TimeCard_file.write(str(Clock_in) + " ")
